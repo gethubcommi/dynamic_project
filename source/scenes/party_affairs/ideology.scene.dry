@@ -14,8 +14,7 @@ The <span style="color:#FFFF00;">**DP**</span> is torn between many different id
 
 [? if ideology != 0 : We have previously chosen a Social Liberal ideology. Changing it will likely have drawbacks. ?]
 
-- @class_struggle: Cooperation with the SNP is a necessary choice.
-@subtitle: The entire party would defect if we did this.
+- @class_struggle: We must commit to austerity, and use corruption to get into government.
 - @centrist: Classical <span style="color: #ADD8E6;">Liberalism</span> remains the best way to solve our internal contradictions.
 - @labor: We should work with the trade unions to improve the lives of the middle class and workers alike.
 - @reform: Following ideological currents recently, we should work for ethical <span style="color: #FF474C;">liberalism</span>, strengthen democracy, and expand the party's electorate.
