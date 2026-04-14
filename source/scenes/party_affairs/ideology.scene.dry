@@ -10,14 +10,15 @@ max-visits: 3
 
 = Questions of Ideology
 
-The <span style="color: #c00000;">**SPD**</span> is torn between many different ideological currents. What should be our primary ideological guidance for now?
+The <span style="color:#FFFF00;">**DP**</span> is torn between many different ideological currents. What should be our primary ideological guidance for now?
 
-[? if ideology != 0 : We have previously chosen a [+ ideology +] ideology. Changing it will likely have drawbacks. ?]
+[? if ideology != 0 : We have previously chosen a Social Liberal ideology. Changing it will likely have drawbacks. ?]
 
-- @class_struggle: Class struggle and preparing the proletariat for the revolution are our primary goals.
-- @centrist: The Center <span style="color: #9B0000;">Marxism</span> of Karl Kautsky remains the best way to resolve our internal contradictions.
-- @labor: We should work with the trade unions to improve the lives of workers.
-- @reform: Following Eduard Bernstein, we should work for ethical <span style="color: #c00000;">socialism</span>, strengthen democracy, and expand the party's electorate.
+- @class_struggle: Cooperation with the SNP is a necessary choice.
+@subtitle: The entire party would defect if we did this.
+- @centrist: Classical <span style="color: #ADD8E6;">Liberalism</span> remains the best way to solve our internal contradictions.
+- @labor: We should work with the trade unions to improve the lives of the middle class and workers alike.
+- @reform: Following ideological currents recently, we should work for ethical <span style="color: #FF474C;">liberalism</span>, strengthen democracy, and expand the party's electorate.
 - @socpat: Pursue the fusion of <span style='color: #c00000;'>socialism</span> and patriotism.
 - @easy_discard
 
