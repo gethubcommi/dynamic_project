@@ -13,11 +13,11 @@ In our media and campaign materials, who should we consider as our main opponent
 
 [? if enemies != 0 : Previously, we had considered the [+ enemies +] as our prior enemies. Is a change of direction necessary? ?]
 
-- @anti_dem: The anti-democratic parties of the <span style="color: #000000;">far</span>-[? if dnvp_ideology == "Radical": <span style="color: #6a329f;">right</span>?][? if dnvp_ideology == "Moderate": <span style="color: #6a329f;">right</span>?] and <span style="color: #700000;">left</span> - the <span style="color: #700000;">**SWFP**</span>, <span style="color: #000000;">**NW**</span>, and [? if dnvp_ideology == "Radical": <span style="color: #6a329f;">**SNP**</span>?][? if dnvp_ideology == "Moderate": <span style="color: #6a329f;">**SNP**</span>?].
-- @far_right: The <span style="color: #000000;">far</span>-[? if dnvp_ideology == "Radical": <span style="color: #6a329f;">right</span>?][? if dnvp_ideology == "Moderate": <span style="color: #6a329f;">right</span>?] - the <span style="color: #000000;">**NW**</span> and [? if dnvp_ideology == "Radical": <span style="color: #6a329f;">**SNP**</span>?][? if dnvp_ideology == "Moderate": <span style="color: #6a329f;">**SNP**</span>?].
-- @nsdap: The <span style="color: #000000;">**NW**</span> alone.
+- @anti_dem: The anti-democratic parties of the <span style="color: #6a329f;">far</span>-[? if dnvp_ideology == "Radical": <span style="color: #6a329f;">right</span>?][? if dnvp_ideology == "Moderate": <span style="color: #6a329f;">right</span>?] and <span style="color: #700000;">left</span> - the <span style="color: #700000;">**SWFP**</span>, and <span style="color: #000000;">**SNP**</span>
+- @far_right: The <span style="color: #6a329f;">far</span>-[? if dnvp_ideology == "Radical": <span style="color: #6a329f;">right</span>?][? if dnvp_ideology == "Moderate": <span style="color: #6a329f;">right</span>?] - the <span style="color: #000000;">**SNP**</span> and [? if dnvp_ideology == "Radical": <span style="color: #808080;">**Black Batallion**</span>?][? if dnvp_ideology == "Moderate": <span style="color: #6a329f;">**SNP**</span>?].
+- @nsdap: The <span style="color: #000000;">**SNP**</span> alone.
 - @kpd: The <span style="color: #700000;">**SWFP**</span>.
-- @bourgeois: The Black Battalion - the [? if z_party_name != "Black Batallion": <span style="color: #808080;">Center</span>?][? if z_party_name == "Black Batallion": <span style="color: #808080;">**Black Battalion**</span>?], the mostly reactionary forces who support the inhumane sordification of Bergia.
+- @bourgeois:  - The [? if z_party_name != "Black Batallion": <span style="color: #808080;">Black Batallion</span>?][? if z_party_name == "Black Batallion": <span style="color: #808080;">**Black Battalion**</span>?], the mostly reactionary forces who support the inhumane sordification of Bergia.
 - @easy_discard
 
 @anti_dem
