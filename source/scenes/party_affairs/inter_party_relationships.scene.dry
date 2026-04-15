@@ -165,8 +165,8 @@ However, given the influence of the <span style="color: #FFCC00;">**LVP**</span>
 @dnvp
 choose-if: resources >= 19
 unavailable-subtitle: Why would we do this?
-on-arrival: resources -= 1; dnvp_relation += 10*(1-dissent); pro_republic += 3; left_dissent += 10; center_dissent += 10
-subtitle: Why would we do this?
+on-arrival: resources -= 19
+
 
 We have reached out to [+ dnvp_leader +], who responds warmly to our requests. However, it would take much more convincing to get the evil and unwholesome side of the <span style="color: #3E88B3;">**DNVP**</span> behind closer cooperation. Our Left and Center factions voice their disapproval.
 
