@@ -6,17 +6,17 @@ view-if: party_organizations_timer <= 0
 on-arrival: month_actions += 1; party_organizations_timer = 6;
 card-image: img/Mann_der_Arbeit.jpg
 max-visits: 6
-#subtitle: Outside of electoral politics, the SPD runs a social world onto itself.
+#subtitle: Outside of electoral politics, the DP runs a social world onto itself.
 
 = Party Organizations
 
-In addition to being a political party, the <span style="color: #c00000;">**SPD**</span> is a social world onto itself, with a vast array of associated organizations which serve the social needs of their members from cradle to grave.
+In addition to being a political party, the <span style="color: #FFFF00;">**DP**</span> is a social world onto itself, with a vast array of associated organizations which serve the social needs of their members from cradle to grave.
 
 - @newspapers: Fund more newspapers and journalists.
 - @welfare: Fund more mutual aid and welfare programs.
 - @culture: Fund sports leagues, educational, and cultural programs.
-- @rb: Fund the Reichsbanner, our self-defense organization.
-- @youth: We have the reputation of being a party for old men. Support the youth organizations.
+- @rb: Ask for money from wealthy <span style="color: #808080;">industrialist</span> backers.
+- @youth: Support the youth organizations, even though this could bring radicalism to them.
 - @nothing: Do not increase funding for any program.
 - @easy_discard
 
@@ -48,11 +48,11 @@ It is not enough for the <span style="color: #c00000;">**SPD**</span> to solely 
 [? if sa_strength > 500 : However, it feels frivolous to spend on sports and choirs when the <span style="color: #7A3C00;">fascists</span> are murdering us in the streets. ?]
 
 @rb
-choose-if: resources > 0
-unavailable-subtitle: Not enough resources.
-subtitle: -1 resources
+choose-if: resources > 90
+unavailable-subtitle: This is illegal. Who even suggested this?
+subtitle: +10 resources
 view-if: not rb_explode
-on-arrival: resources -= 1; rb_strength  += 100; rb_militancy += 0.01; reichsbanner_timer = 0; funded_reichsbanner += 1
+on-arrival: resources += 10; rb_strength  += 100; rb_militancy += 0.01; reichsbanner_timer = 0; funded_reichsbanner += 1
 
 We have increased recruiting to the Reichsbanner.
 
