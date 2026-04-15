@@ -10,13 +10,13 @@ card-image: WT9Ev4jWp8eLoPFd00lxx_ckingdom3x.png
 = Inter-Party Relationships
 
 The <span style="color: #FFFF00;">**DP**</span> cannot govern by itself yet. Because we do not have an electoral majority, we need the support of other parties. We could reach out to other parties, which would prove useful if we were to make governments, or, we could stand alone.
-- @liberals: Strengthen our bonds with the left-liberal regional  [? if ddp_name == "DDP": <span style="color: #D3C24D;">BVP</span>?]
-- @liberals_ddp: Communicate with the sympathetic members of the [? if ddp_name == "DDP": <span style="color: ##8B4000;">NLP</span>?]
+- @liberals: Strengthen our bonds with the left-liberal regional <span style="color: #D3C24D;">BVP</span>.
+- @liberals_ddp: Communicate with the sympathetic members of the <span style="color: ##8B4000;">NLP</span>.
 - @liberals_lvp: Strengthen our bonds with the <span style="color: #FFCC00;">Liberal People's Party</span>.
-- @center: Attempt to communicate with the somewhat reactionary [? if z_party_name != "CVP": <span style="color: #ADD8E6;">NSP</span>?][? if z_party_name == "CVP": <span style="color: #ADD8E6;">**NSP**</span>?].
+- @center: Attempt to communicate with the somewhat reactionary <span style="color: #ADD8E6;">NSP</span>?
 - @cvp: Reconcile with the <span style="color: #000000;">Christian People's Party</span>.
 - @kpd: Work towards repairing relationships with the <span style="color: #700000;">SFWP</span>.
-- @dnvp: Open dialogue with the <span style="color: #6a329f;">SNP</span>?]. 
+- @dnvp: Open dialogue with the <span style="color: #6a329f;">SNP</span>?. 
 - @spd_alone: The <span style="color: #FFFF00;">DP</span> can stand alone for now.
 - @easy_discard
 
