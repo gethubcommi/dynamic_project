@@ -16,8 +16,8 @@ Whether or not we are in an electoral campaign, the <span style="color: #FFFF00;
 - @new_middle:The "new middle class" of government employees and white-collar workers, our traditional support base.
 - @old_middle:The "old middle class" of small independent businessmen and artisans, our traditional support base.
 - @rural:Rural workers and small farmers.
-- @unemployed:The unemployed.
 - @catholics:Nurists, who typically support the <span style="color: #ADD8E6;">NSP</span>
+- @unemployed:The unemployed.
 - @root:We either don't want to or cannot campaign right now.
 - @easy_discard
 
