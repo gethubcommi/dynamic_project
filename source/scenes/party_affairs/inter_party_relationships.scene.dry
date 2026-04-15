@@ -4,22 +4,20 @@ view-if: inter_party_relationships_timer <= 0
 tags: party_affairs
 is-card: true
 on-arrival: month_actions += 1; inter_party_relationships_timer = 6;
-card-image: img/weimar_coalition_2.jpg
+card-image: WT9Ev4jWp8eLoPFd00lxx_ckingdom3x.png
 #subtitle: Building relations with the other political parties of Germany.
 
 = Inter-Party Relationships
 
-The <span style="color: #c00000;">**SPD**</span> cannot govern by itself yet. Because we do not have an electoral majority, we need the support of other parties. Recently, our governments have consisted of the <span style="color: #000000;">We</span><span style="color: #DD0000;">im</span><span style="color: #FFCC00;">ar</span> Coalition of the <span style="color: #c00000;">**SPD**</span>, <span style="color: #000000;">Center</span>, and [? if ddp_name == "DDP" and not lvp_formed: <span style="color: #D3C24D;">**Democratic**</span>?][? if ddp_name == "DStP" and not lvp_formed: <span style="color: #D3C24D;">**State**</span>?][? if lvp_formed: <span style="color: #FFCC00;">**Liberal People's**</span>?] parties. [? if cvp_formed: However the formation of the <span style="color: #000000;">**[+ z_party_name +]**</span> has only really made cooperation with the <span style="color: #D3C24D;">liberals</span> possible. ?] We can reach out and build additional connections with these parties, or perhaps we can stand alone.
-
-- @liberals: Strengthen our bonds with the left-liberal [? if ddp_name == "DDP": <span style="color: #D3C24D;">German Democratic Party</span>?][? if ddp_name == "DStP": <span style="color: #D3C24D;">German State Party</span>?] and conservative-liberal <span style="color: #C0A054;">German People's Party</span>.
-- @liberals_ddp: Strengthen our bonds with the left-liberal [? if ddp_name == "DDP": <span style="color: #D3C24D;">German Democratic Party</span>?][? if ddp_name == "DStP": <span style="color: #D3C24D;">German State Party</span>?].
+The <span style="color: #FFFF00;">**DP**</span> cannot govern by itself yet. Because we do not have an electoral majority, we need the support of other parties. We could reach out to other parties, which would prove useful if we were to make governments, or, we could stand alone.
+- @liberals: Strengthen our bonds with the left-liberal regional  [? if ddp_name == "DDP": <span style="color: #D3C24D;">BVP</span>?]
+- @liberals_ddp: Communicate with the sympathetic members of the [? if ddp_name == "DDP": <span style="color: ##8B4000;">NLP</span>?]
 - @liberals_lvp: Strengthen our bonds with the <span style="color: #FFCC00;">Liberal People's Party</span>.
-- @center: Strengthen our bonds with the Catholic [? if z_party_name != "CVP": <span style="color: #000000;">Center Party</span>?][? if z_party_name == "CVP": <span style="color: #000000;">**CVP**</span>?].
+- @center: Attempt to communicate with the somewhat reactionary [? if z_party_name != "CVP": <span style="color: #ADD8E6;">NSP</span>?][? if z_party_name == "CVP": <span style="color: #ADD8E6;">**NSP**</span>?].
 - @cvp: Reconcile with the <span style="color: #000000;">Christian People's Party</span>.
-- @kpd: Work towards repairing relationships with the <span style="color: #700000;">Communist Party</span>.
-- @dnvp: Open dialogue with [? if dnvp_leader != "Lambach": Treviranus and the <span style="color: #0087DC;">People's Conservatives</span>?][? if dnvp_leader == "Lambach": Lambach and the <span style="color: #6D5298;">Christian Socials</span>?] of the <span style="color: #3E88B3;">**DNVP**</span>.
-- @nsdap: Establish contact with Strasser and the <span style="color: #7A3C00;">Nazi Party</span>'s left wing.
-- @spd_alone: The <span style="color: #c00000;">SPD</span> can stand alone for now.
+- @kpd: Work towards repairing relationships with the <span style="color: #700000;">SFWP</span>.
+- @dnvp: Open dialogue with the <span style="color: #6a329f;">SNP</span>?]. 
+- @spd_alone: The <span style="color: #FFFF00;">DP</span> can stand alone for now.
 - @easy_discard
 
 
@@ -165,10 +163,10 @@ With the death of Gustav Stresemann, the right wing of the <span style="color: #
 However, given the influence of the <span style="color: #FFCC00;">**LVP**</span> among the other <span style="color: #808080;">right</span>-leaning parties [? if president == "Hindenburg" or president_ideology == "Moderate": and with President [+ president +] ?], it can still be helpful to influence them. 
 
 @dnvp
-view-if: wacky_weimar
-choose-if: resources >= 1 and ((dnvp_leader == "Treviranus" and true_christian_democracy) or (dnvp_leader == "Lambach" and lambach_stays))
+choose-if: resources >= 1
 unavailable-subtitle: [? if resources < 1: Not enough resources. ?] [? if dnvp_leader != "Treviranus" and dnvp_leader != "Lambach": Treviranus or Lambach must lead the <span style="color: #3E88B3;">DNVP</span>. ?][? if not true_christian_democracy and dnvp_leader == "Treviranus": Treviranus's wholesomeness is restrained by his own party. ?][? if not lambach_stays and dnvp_leader == "Lambach": Lambach's wholesomeness is restrained by his own party, he must consolidate his position first. ?]
 on-arrival: resources -= 1; dnvp_relation += 10*(1-dissent); pro_republic += 3; left_dissent += 10; center_dissent += 10
+subtitle: Why would we do this?
 
 We have reached out to [+ dnvp_leader +], who responds warmly to our requests. However, it would take much more convincing to get the evil and unwholesome side of the <span style="color: #3E88B3;">**DNVP**</span> behind closer cooperation. Our Left and Center factions voice their disapproval.
 
