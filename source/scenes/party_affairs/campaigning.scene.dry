@@ -17,7 +17,7 @@ Whether or not we are in an electoral campaign, the <span style="color: #FFFF00;
 - @old_middle: The "old middle class" of small independent businessmen and artisans, our traditional support base.
 - @rural: Rural workers and small farmers.
 - @unemployed: The unemployed.
-- @catholics: Catholics, who typically support the [? if z_party_name != "CVP": <span style="color: #ADD8E6;">NSP</span>?][? if z_party_name == "CVP": <span style="color: #ADD8E6;">**NSP**</span>?].
+- @catholics: Nurists, who typically support the [? if z_party_name != "CVP": <span style="color: #ADD8E6;">NSP</span>?][? if z_party_name == "CVP": <span style="color: #ADD8E6;">**NSP**</span>?].
 - @root: We either don't want to or cannot campaign right now.
 - @easy_discard
 
