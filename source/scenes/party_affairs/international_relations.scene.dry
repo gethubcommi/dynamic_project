@@ -2,19 +2,19 @@ title: International Relations
 new-page: true
 is-card: true
 tags: party_affairs
-view-if: international_relations_timer <= 0
+view-if: international_relations_timer
 on-arrival: month_actions += 1; international_relations_timer += 12;
 card-image: img/international.jpg
 max-visits: 4
-#subtitle: Building ties with our fraternal socialist parties.
+#subtitle: Building ties with our fraternal liberal parties.
 
-At the <span style="color: #D50032;">Labor and Socialist International</span>, we can forge contacts with our fraternal <span style="color: #c00000;">socialist</span> parties in <span style="color: #001489;">Europe</span> and across the world.
+At the <span style="color: #FFFF00;">Liberal International</span>, we can forge contacts with our fraternal <span style="color: #FFFF00;">liberal</span> parties in <span style="color: #FFFF00;">Merkopa</span> and across the world.
 
-- @fr_uk: Build relationships with the <span style="color: #002654;">French</span> <span style="color: #ff0000;">SFIO</span> and <span style="color: #C8102E;">British</span> <span style="color: #f0456a;">Labour Party</span> to move their governments in Germany's favor.
-- @austria: Learn organization and street fighting from the <span style="color: #EF3340;">Au</span><span style="color: #ffffff;"><span style="color: #ffffff;">str</span></span><span style="color: #EF3340;">ian</span> <span style="color: #A50034;">SDAPÖ</span>.
-- @scandi: Learn the path of economics and reform from the Scandinavian <span style="color: #D70926;">social democrats</span>.
-- @comintern: Forget the second international - embed a spy in the <span style="color: #D50000;">Comintern</span>'s conference.
-- @america: Contact the <span style="color: #940f0f;">Socialist Party of America</span>.
+- @fr_uk: Build relationships with  <span style="color: #FFFFED;">Democrazia Lespia</span>, the <span style="color: #111184;">Federalist Party Of Arcasia</span> and <span style="color: #BA8E23;">Agnolian</span> <span style="color: #FFFF00;">;Liberal Party</span> to move their governments in Sordland's favor.
+- @austria: Learn organization and street fighting from the <span style="color: #C4A484;">Wehzek</span> <span style="color: #A50034;">Liberal Opposition</span>.
+- @scandi: Attempt to contact our fellow <span style="color: #B3EBF2;">Rikan</span> <span style="color: #FFFF00;">liberal parties</span>.
+- @comintern: Forget the <span style="color: #FFFF00;">liberal international</span> - lets leave.
+- @america: Contact the <span style="color: #940f0f;">Democratic Party</span> of Qinal.
 - @return: We do not need international contacts at the moment.
 - @easy_discard
 - @cancel_advisor_action
@@ -49,9 +49,9 @@ on-arrival: reformist_strength += 3; wtb_support += 1; resources -= 1; moderate_
 The programs of the Nordic <span style="color: #D70926;">socialists</span> involve active government intervention in the economy. We can learn from their economic strategies, and how they moved beyond their working-class base to attract a broader set of constituents.
 
 @comintern
-subtitle: -1 resources
-choose-if: resources >= 1
-unavailable-subtitle: Not enough resources.
+subtitle: -19 resources
+choose-if: resources >= 19
+unavailable-subtitle: Are we lunatics?
 on-arrival: resources -= 1; kpd_relation += 5*(1-dissent); communist_coalition += 1 if comintern_seen == 0; comintern_seen += 1
 
 The <span style="color: #8B0000;">Stalinists</span> of the <span style="color: #700000;">**KPD**</span> insists on calling us "<span style="color: #c00000;">social</span> <span style="color: #7A3C00;">fascists</span>", suggesting that we <span style="color: #c00000;">social democrats</span> are as bad or worse than actual <span style="color: #7A3C00;">fascists</span>. Needless to say, this is not good for our relationship with the <span style="color: #700000;">communists</span>. By observing the <span style="color: #D50000;">Comintern</span>, we can better understand the <span style="color: #700000;">**KPD**</span>, enabling us to potentially improve relations, or counter the <span style="color: #700000;">**KPD**</span> if it may come to that.
